@@ -34,17 +34,18 @@ main{
 .navbar li{
     float: left;
 }
-.float-left{
+.article_img{
     float: left;
     margin-right: 20px;
     height: 365px;
 }
 
-.float-right{
+.documentaries_img{
     float: right;
     margin-left: 20px;
     height: 365px;
 }
+
 .image-container {
     margin-bottom: 20px;
 }
