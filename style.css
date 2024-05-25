@@ -50,6 +50,7 @@ main{
 }
 
 .float-text{
+    font-size: large;
     overflow: hidden;
 }
 .clearfix::after {
