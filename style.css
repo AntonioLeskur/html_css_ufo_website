@@ -1,14 +1,23 @@
-h1{
+.header_class h1{
     text-align: center;
     color: white;
     padding: 25px;
 }
 
-header{
+.header_class{
     background-image:url(images/image_header.jpg);
     background-repeat: no-repeat;
     background-position: 50% 33%;
     background-size: cover
+}
+.footer_class{
+    margin: 0px;
+    padding: 2px;
+    background-color: hsl(0, 0%, 44%);
+}
+.footer_text{
+    color: white;
+    text-align: center;
 }
 body{
     margin: 0px;
@@ -34,21 +43,21 @@ main{
 .navbar li{
     float: left;
 }
-.article_img{
+.img_left{
     float: left;
     margin-right: 20px;
     height: 365px;
 }
-.article_img:hover{
+.img_left:hover{
     filter: brightness(150%);
 }
 
-.documentaries_img{
+.img_right{
     float: right;
     margin-left: 20px;
     height: 365px;
 }
-.documentaries_img:hover{
+.img_right:hover{
     filter: brightness(150%);
 }
 
@@ -57,8 +66,9 @@ main{
 }
 
 .float-text{
+    height: 300px;
     font-size: large;
-    overflow: hidden;
+    overflow: auto;
 }
 .clearfix::after {
     content: "";
@@ -66,8 +76,22 @@ main{
     clear: both;
 }
 .article_part{
+    height: 300px;
     border: 1px solid hsl(0, 0%, 87%);
     border-radius: 10px;
     padding: 10px;
     background-color: hsl(0, 0%, 97%);
+}
+.article_part_long{
+    height: auto;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 97%);
+}
+.roswell_img{
+    height: 250px;
+}
+.video_container{
+    text-align: center;
 }
