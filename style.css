@@ -11,7 +11,7 @@ header{
     background-size: cover
 }
 body{
-    margin: none;
+    margin: 0px;
 }
 main{
     margin: 15px;
@@ -39,11 +39,17 @@ main{
     margin-right: 20px;
     height: 365px;
 }
+.article_img:hover{
+    filter: brightness(150%);
+}
 
 .documentaries_img{
     float: right;
     margin-left: 20px;
     height: 365px;
+}
+.documentaries_img:hover{
+    filter: brightness(150%);
 }
 
 .image-container {
@@ -58,4 +64,10 @@ main{
     content: "";
     display: table;
     clear: both;
+}
+.article_part{
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 97%);
 }
